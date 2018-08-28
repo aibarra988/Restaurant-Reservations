@@ -12,7 +12,8 @@ var reservations = [
     {
         name: "John Q.",
         phone: "555-1234",
-        partySize: 5,
+        email: "fake.email@fakeemail.com",
+        uId: "FakeID"
       },
 ];
 
