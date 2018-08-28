@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-reservations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aibarra988/Restaurant-Reservations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aibarra988/Restaurant-Reservations/issues"
+  },
+  "homepage": "https://github.com/aibarra988/Restaurant-Reservations#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
