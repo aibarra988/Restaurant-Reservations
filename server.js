@@ -12,7 +12,8 @@ var reservations = [
     {
         name: "John Q.",
         phone: "555-1234",
-        partySize: 5,
+        email: "fake.email@fakeemail.com",
+        uId: "FakeID"
       },
 ];
 
@@ -20,6 +21,18 @@ var waitlist = [];
 
 app.get("/", function(req, res){
     res.sendFile(path.join(__dirname, "home.html"));
+});
+
+app.get("/home", function(req, res){
+    res.sendFile(path.join(__dirname, "home.html"));
+});
+
+app.get("/tables", function(req, res){
+    res.sendFile(path.join(__dirname, "tables.html"));
+});
+
+app.get("/reserve", function(req, res){
+    res.sendFile(path.join(__dirname, "reserve.html"));
 });
 
 app.get("/api/reservations", function(req, res){
